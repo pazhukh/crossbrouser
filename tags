@@ -1,3 +1,7 @@
 <input type="date"> - працює лише в Chrome
 альтернатива
-<input type="text">    https://jqueryui.com/datepicker/   $( "#date" ).datepicker({ dateFormat: 'dd/mm/yy' });
+<input type="text">    https://jqueryui.com/datepicker/   $( "#date" ).datepicker({ dateFormat: 'dd/mm/yy' });//
+
+
+//input required message використовуємо в тезі ось це:
+oninvalid="this.setCustomValidity('наше повідомлення')" oninput="setCustomValidity('')"
