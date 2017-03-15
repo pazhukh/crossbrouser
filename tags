@@ -23,8 +23,8 @@ function InvalidMsg(textbox) {
     return true;
 }
 
-
-
+ios required
+http://codepen.io/ashblue/pen/KyvmA
 
 http://jsfiddle.net/patelriki13/Sqq8e/
 http://stackoverflow.com/questions/5272433/html5-form-required-attribute-set-custom-validation-message
