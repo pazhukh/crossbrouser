@@ -6,6 +6,26 @@
 //input required message використовуємо в тезі ось це:
 oninvalid="this.setCustomValidity('наше повідомлення')" oninput="setCustomValidity('')"
 x-moz-errormessage="message"//для mozila
+
+
+//input required message виводимо свої повідомлення через JS
+<input oninvalid="InvalidMsg(this);" oninput="InvalidMsg(this);"  type="email" required>
+function InvalidMsg(textbox) {
+    if (textbox.value == '') {
+        textbox.setCustomValidity('Не залишай пустим поле');
+    }
+    else if(textbox.validity.typeMismatch){
+        textbox.setCustomValidity('введіть пошту');
+    }
+    else {
+        textbox.setCustomValidity('');
+    }
+    return true;
+}
+
+
+
+
 http://jsfiddle.net/patelriki13/Sqq8e/
 
 http://stackoverflow.com/questions/16867407/html5-why-does-my-oninvalid-attribute-let-the-pattern-fail
