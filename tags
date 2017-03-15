@@ -27,5 +27,5 @@ function InvalidMsg(textbox) {
 
 
 http://jsfiddle.net/patelriki13/Sqq8e/
-
+http://stackoverflow.com/questions/5272433/html5-form-required-attribute-set-custom-validation-message
 http://stackoverflow.com/questions/16867407/html5-why-does-my-oninvalid-attribute-let-the-pattern-fail
